@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="53" viewBox="0 0 147 53">
+  <g id="Facebook_Button" data-name="Facebook Button" transform="translate(-89 -2151)">
+    <g id="Rectangle_1041" data-name="Rectangle 1041" transform="translate(89 2151)" fill="#3f51b5" stroke="#56d" stroke-width="1.5">
+      <rect width="147" height="53" rx="7" stroke="none"/>
+      <rect x="0.75" y="0.75" width="145.5" height="51.5" rx="6.25" fill="none"/>
+    </g>
+    <g id="Group_2788" data-name="Group 2788" transform="translate(5 3)">
+      <path id="Path_318" data-name="Path 318" d="M42,37a5,5,0,0,1-5,5H11a5,5,0,0,1-5-5V11a5,5,0,0,1,5-5H37a5,5,0,0,1,5,5Z" transform="translate(93 2151)" fill="#fff"/>
+      <path id="Path_319" data-name="Path 319" d="M34.368,25H31V38H26V25H23V21h3V18.59C26,15.082,27.459,13,31.592,13H35v4H32.713C31.1,17,31,17.6,31,18.723V21h4Z" transform="translate(93 2151)" fill="#3f51b5"/>
+    </g>
+    <text id="Join_now" data-name="Join now" transform="translate(186 2183)" fill="#fff" font-size="14" font-family="SFProText-Bold, SF Pro Text" font-weight="700" letter-spacing="-0.024em"><tspan x="-35.724" y="0">JOIN NOW</tspan></text>
+  </g>
+</svg>

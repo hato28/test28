@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ico-close" transform="translate(-367 -88)">
+    <circle id="bg" cx="10" cy="10" r="10" transform="translate(367 88)" fill="#c4c4c4"/>
+    <path id="ico-close-2" data-name="ico-close" d="M23.225,15.978a.749.749,0,0,0-.523.23l-2.716,2.716-2.716-2.716a.749.749,0,1,0-1.059,1.059l2.716,2.716L16.212,22.7a.749.749,0,1,0,1.059,1.059l2.716-2.716L22.7,23.759A.749.749,0,1,0,23.762,22.7l-2.716-2.716,2.716-2.716a.749.749,0,0,0-.536-1.289Z" transform="translate(357.016 78.021)" fill="#fff"/>
+  </g>
+</svg>

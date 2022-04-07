@@ -1,0 +1,130 @@
+.manrope { font-family: 'Manrope', sans-serif; }
+
+$green: #29CC97;
+$green-fade: #a9ebd5;
+$grey: #c0c4cd;
+$grey-dark: #687189;
+$grey-light: #EFF3F9;
+$blue-dark: #2E3A59;
+$blue-darkest: #091228;
+$white: #fefefe;
+$red: #F12B2C;
+$blue: #3751FF;
+$brown: #795548;
+$dark: #333;
+$grey-dark: #666;
+$primary: $green;
+
+//betting colors
+$bet-red: #F12B2C;
+$bet-red-fade: #ed9e9e;
+$bet-blue: #3751FF;
+$bet-blue-fade: #a0aaf0;
+$bet-green: #016F4B;
+$bet-green-fade: #90bcae;
+
+// Theme Variables
+$logo: 'logo';
+$header-bg: 'header-bg';
+$header-text: 'header-text';
+$header-border: 'header-border';
+$body-bg: 'body-bg';
+$card-bg: 'card-bg';
+$text: 'text';
+$svg: 'svg';
+$border-color: 'border-color';
+
+@mixin text-colors {
+  &--light {
+    color: $white;
+  }
+  &--dark {
+    color: $blue-dark;
+  }
+  &--brown {
+    color: $brown;
+  }
+  &--blue {
+    color: $blue;
+  }
+  &--grey {
+    color: $grey;
+  }
+  &--grey-dark {
+    color: $grey-dark;
+  }
+  &--green {
+    color: $green;
+  }
+  &--red {
+    color: $red;
+  }
+  &--play-red {
+    color: $bet-red;
+  }
+  &--play-blue {
+    color: $bet-blue;
+  }
+  &--play-green {
+    color: $bet-green;
+  }
+}
+
+@keyframes radial {
+  1% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.25);
+  }
+}
+
+/* THEMING */
+$themes: (
+  default: (
+    logo: $blue-dark,
+    header-bg: $white,
+    header-text: $blue-dark,
+    header-border: $grey,
+    body-bg: $grey-light,
+    card-bg: $white,
+    text: $blue-dark,
+    svg: $blue-dark,
+    border-color: $grey
+  ),
+  dark: (
+    logo: $white,
+    header-bg: $blue-dark,
+    header-text: $white,
+    header-border: $grey-dark,
+    body-bg: $blue-darkest,
+    card-bg: $blue-dark,
+    text: $white,
+    svg: $white,
+    border-color: $blue-darkest
+  ),
+);
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico-close" transform="translate(-351 -126)">
+    <rect id="bg" width="24" height="24" transform="translate(351 126)" fill="#fff" opacity="0"/>
+    <g id="ico-close-2" data-name="ico-close">
+      <path id="Path_4157" data-name="Path 4157" d="M8.464,20.464l12-12" transform="translate(348.535 123.536)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_4158" data-name="Path 4158" d="M8.464,8.465l12,12" transform="translate(348.535 123.536)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico-star-active" transform="translate(21599 19540)">
+    <rect id="bg" width="24" height="24" transform="translate(-21599 -19540)" fill="#fff" opacity="0"/>
+    <path id="ico-star-active-2" data-name="ico-star-active" d="M14.057,21.37l6,3.62a1.249,1.249,0,0,0,1.862-1.353l-1.592-6.823,5.3-4.591a1.249,1.249,0,0,0-.712-2.188l-6.976-.591L15.207,3a1.25,1.25,0,0,0-2.3,0L10.178,9.443,3.2,10.035a1.249,1.249,0,0,0-.712,2.188l5.3,4.591L6.2,23.637A1.249,1.249,0,0,0,8.06,24.99Z" transform="translate(-21601.057 -19541.244)" fill="#007AFF"/>
+  </g>
+</svg>

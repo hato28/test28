@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2762" data-name="Rectangle 2762" width="28" height="28" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="ico-warning" transform="translate(-39 -122)">
+    <rect id="bg" width="32" height="32" transform="translate(39 122)" fill="#fff" opacity="0"/>
+    <g id="Group_3289" data-name="Group 3289" transform="translate(41 124)">
+      <g id="Group_3289-2" data-name="Group 3289" clip-path="url(#clip-path)">
+        <path id="Path_4168" data-name="Path 4168" d="M15.806,0H12.194A12.212,12.212,0,0,0,0,12.194v3.613A12.212,12.212,0,0,0,12.194,28h3.613A12.212,12.212,0,0,0,28,15.806V12.194A12.212,12.212,0,0,0,15.806,0M25.29,15.806a9.494,9.494,0,0,1-9.484,9.484H12.194A9.483,9.483,0,0,1,2.71,15.806V12.194A9.494,9.494,0,0,1,12.194,2.71h3.613a9.506,9.506,0,0,1,9.484,9.484Z" fill="#fff"/>
+        <path id="Path_4169" data-name="Path 4169" d="M16.152,9.941a2.481,2.481,0,0,0-1.1-1.517L9.341,4.558a3.328,3.328,0,0,0-3.378-.181A2.622,2.622,0,0,0,4.5,6.708v8.129a2.622,2.622,0,0,0,1.463,2.33,3.328,3.328,0,0,0,1.535.379,3.382,3.382,0,0,0,1.879-.578l5.6-4.173a2.646,2.646,0,0,0,.921-.921,2.484,2.484,0,0,0,.253-1.933M7.824,14.765a1.018,1.018,0,0,1-.578.072H7.21L7.174,6.816a.613.613,0,0,1,.65-.018l5.6,3.794Z" transform="translate(3.629 3.228)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

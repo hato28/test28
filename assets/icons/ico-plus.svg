@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="ico-plus" transform="translate(-389 -123)">
+    <circle id="bg" cx="5" cy="5" r="5" transform="translate(389 123)" fill="#007aff"/>
+    <path id="ico-plus-2" data-name="ico-plus" d="M155.8,153.8h-1.6v-1.6a.2.2,0,1,0-.4,0v1.6h-1.6a.2.2,0,1,0,0,.4h1.6v1.6a.2.2,0,0,0,.4,0v-1.6h1.6a.2.2,0,0,0,0-.4Z" transform="translate(240 -26)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+  </g>
+</svg>
